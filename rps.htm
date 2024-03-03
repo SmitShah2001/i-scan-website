@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="rps.js"></script>
+    <link rel="stylesheet" type="text/css" href="rps.css" />
+    <title>RPS Game</title>
+  </head>
+
+  <body>
+    <div class="container-5">
+      <h2>Game : ROCK , PAPER , SCISSOR</h2>
+
+      <div class="flex-fbox-rps" id="flex-box-rps-div">
+        <img
+          src="images/rock.jpg"
+          alt="rock"
+          id="rock"
+          height="150"
+          width="150"
+          onclick="rpsgame(this)"
+        />
+        <img
+          src="images/paper.png"
+          alt="paper"
+          id="paper"
+          height="150"
+          width="150"
+          onclick="rpsgame(this)"
+        />
+        <img
+          src="images/scissor.png"
+          alt="scissor"
+          id="scissors"
+          height="150"
+          width="150"
+          onclick="rpsgame(this)"
+        />
+      </div>
+
+      <button id="btn" onclick="again()">Play Again</button>
+    </div>
+  </body>
+</html>
