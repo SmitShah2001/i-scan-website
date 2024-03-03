@@ -6,6 +6,7 @@ function rpsgame(yourChoice) {
 
     var humanChoice = yourChoice.id;
     var computerChoice = choosen();
+    console.log(humanChoice);
 
     compare(humanChoice, computerChoice);
 }
